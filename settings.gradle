@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Route Spotify Play to Apple Music"

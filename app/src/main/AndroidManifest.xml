@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.spotify.music">
+
+    <application
+            android:icon="@mipmap/ic_launcher"
+            android:label="Route Galaxy Buds Spotify Play to Apple Music">
+        <receiver android:name="com.spotify.music.features.spoton.receiver.SpotOnReceiver" android:exported="true" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.spotify.music.features.spoton.ACTION_PLAY_SPOTIFY"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
